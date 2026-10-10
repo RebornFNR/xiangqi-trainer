@@ -1,0 +1,8 @@
+# 统一换行符，二进制文件不要做转换
+* text=auto
+
+*.png binary
+*.ico binary
+*.exe binary
+*.ttf binary
+*.ttc binary

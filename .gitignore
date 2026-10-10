@@ -1,0 +1,19 @@
+# 本地工具链（便携版 git 等，不入库）
+.tools/
+
+# 编译中间产物：源码在 src/，运行 build.ps1 可重新生成
+build/
+
+# 自测输出
+selftest_*.txt
+shots/*.txt
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Windows
+Thumbs.db
+Desktop.ini
